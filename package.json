@@ -1,0 +1,19 @@
+{
+  "name": "wifi-wizard",
+  "version": "1.0.0",
+  "description": "A \"Wizard of Oz\" app to help the UX of the Ad-hoc Wifi process",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radiodan/wifi-wizard"
+  },
+  "author": "Dan Nuttall",
+  "license": "Apache-2",
+  "bugs": {
+    "url": "https://github.com/radiodan/wifi-wizard/issues"
+  },
+  "homepage": "https://github.com/radiodan/wifi-wizard"
+}
