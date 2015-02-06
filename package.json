@@ -15,5 +15,12 @@
   "bugs": {
     "url": "https://github.com/radiodan/wifi-wizard/issues"
   },
-  "homepage": "https://github.com/radiodan/wifi-wizard"
+  "homepage": "https://github.com/radiodan/wifi-wizard",
+  "dependencies": {
+    "body-parser": "^1.0.0",
+    "express": "^4.0.0",
+    "morgan": "^1.0.0",
+    "radiodan-client": "https://github.com/radiodan/radiodan-client.js/archive/master.tar.gz",
+    "serve-static": "^1.0.2"
+  }
 }
