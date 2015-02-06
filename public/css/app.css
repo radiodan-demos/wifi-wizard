@@ -1,0 +1,68 @@
+tbody tr:nth-child(even) {
+  background: rgb(216,216,216)
+}
+
+tbody tr:nth-child(odd) {
+  background: rgb(250,250,250)
+}
+
+tbody tr:hover {
+  background: #25ba84;
+}
+
+td.light {
+  color: transparent;
+}
+
+tr#off td.light {
+  background: rgb(255,255,255)
+}
+
+tr#start-up td.light {
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(0,0,0),
+    rgb(0,0,0) 10px,
+    rgb(255,255,255) 10px,
+    rgb(233,255,255) 20px
+  )
+}
+
+tr#standby td.light {
+  background: rgb(255,0,0)
+}
+
+tr#play td.light {
+  background: rgb(0,255,0)
+}
+
+tr#network-created td.light {
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(0,0,0),
+    rgb(0,0,0) 10px,
+    rgb(114,201,255) 10px,
+    rgb(114,201,255) 20px
+  )
+}
+
+tr#shutdown td.light {
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(0,0,0),
+    rgb(0,0,0) 10px,
+    rgb(255,0,0) 10px,
+    rgb(255,0,0) 20px
+  )
+}
+
+tr#network-lost td.light {
+  background: repeating-linear-gradient(
+    120deg,
+    rgb(0,0,0),
+    rgb(0,0,0) 10px,
+    rgb(255,255,0) 10px,
+    rgb(255,255,0) 20px
+  )
+}
+
