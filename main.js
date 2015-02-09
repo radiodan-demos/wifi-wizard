@@ -10,7 +10,7 @@ var express      = require('express'),
 
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
-app.use(serveStatic('./public'));
+app.use(serveStatic(__dirname + '/public'));
 
 app.use('/api', apiRoutes(express.Router(), player, statusLED));
 
