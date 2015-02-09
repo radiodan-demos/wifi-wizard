@@ -1,0 +1,13 @@
+{
+  "dataPath": "/tmp/.radiodan",
+  "defaults": {
+    "music": "/opt/radiodan/apps/wifi-wizard/music",
+    "outputFormat": "44100:16:1"
+  },
+  "players": [
+    {
+      "name": "Main",
+      "id": "main"
+    }
+  ]
+}
