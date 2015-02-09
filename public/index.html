@@ -76,12 +76,18 @@
     </table>
 
     <form class="m2">
-      <label for="sound">Sound Only</label>
-      <input type="radio" id="sound" name="option" value="sound" />
-      <label for="light">Light Only</label>
-      <input type="radio" id="light" name="option" value="light"/>
-      <label for="both">Sound &amp; Light</label>
-      <input type="radio" id="both" name="option" value="both" checked="checked" />
+      <label for="effectType">Effect Type</label>
+      <select name="effectType" id="effectType">
+        <option value="sound">Sound Only</option>
+        <option value="light">Light Only</option>
+        <option value="both">Sound &amp; Light</option>
+      </select>
+      <label for="soundType">Sound Type</label>
+      <select name="soundType" id="soundType">
+        <option value="8bit">8bit</option>
+        <option value="bell">bell</option>
+        <option value="sine">sine</option>
+      </select>
     </form>
     <script src="/js/zepto.min.js"></script>
     <script src="/js/app.js"></script>
