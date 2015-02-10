@@ -8,6 +8,8 @@ var express      = require('express'),
     apiRoutes    = require('./lib/routes'),
     port         = process.env.PORT || 5000;
 
+player.updateDatabase();
+
 app.set('view engine', 'ejs');
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(serveStatic(__dirname + '/public'));
